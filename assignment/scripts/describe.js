@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// we create a variable called "name" and set it to "Dane"
+// we create a condition that if name is set to "Mary" the console will greet with "hi Mary!"
+// since name is not "Mary" the console will log "How do you do?"
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we create the variables "secret" and "code"
+// we set "code" to equal "123"
+// we create condition that if code equals 123, secret will equal "super" and code will multiply by 2
+// we create another condition that will make secret equal "duper" if code is greater than 250
+// code is not greater than 250 so secret will console log to "super"
 
 //CODE
 /*
@@ -70,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we create variables "isStudent", "age" and "zip" and set to "true", "34" and "55407"
+// we create a conditional to check if "zip" is greater than 80000 and if being a student is true
+//  we create a conditional to check if age is less than 30 and if  being a student is false
+// we create a condition to check if being a student is true, we create a condition to ask about the weather if none of the other conditions apply
+// console will log 'Welcome to Prime!' because student is true, and all prior things did not apply
 
 //CODE
 /*
@@ -130,10 +132,19 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+//color0ne and colorTwo are set to eachothers values per instructions and should be flipped
+// let color0ne = 'blue';
+// let colorTwo = 'red';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// instructions ask for both color0ne and colorTwo to be changed if mix is true
+// needs to add
+// if (mix === true) {
+//  colorTwo = 'purple';
+// }
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -145,6 +156,7 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// should be let time as a variable that wont always be the same
 const time = 4;
 
 if (temp > 39 || time >= 4) {
@@ -165,5 +177,26 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+// this will result in the console logging "no entry"
+// the instructions did not call for a not entry option but it could work if you flip where "no entry" and "enter are"
+
+
+// let age = 21;
+// const minAge = 21;
+
+// if(minAge <= age) {
+//   console.log('enter');
+// } else {
+//  console.log('no entry');
+// }
+
+// or just remove it
+// let age = 21;
+const minAge = 21;
+
+if(minAge <= age) {
+  console.log('enter');
+} 
+
 */
 
